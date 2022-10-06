@@ -30,7 +30,7 @@ public class Dog {
       //dog2.weight=30;
       //dog2.printInfo();
 
-        Dog dog2=new Dog(dogName:"tomy",)
+        Dog dog2=new Dog();
 
     }
 
