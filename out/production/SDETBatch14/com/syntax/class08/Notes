@@ -1,0 +1,26 @@
+Java Class 8
+
+Loops in Java:
+
+while
+do while
+for
+enhanced for loop/for each loop/advanced for loop
+
+for loop - when we know number of repetitions/iterations in advance
+
+    for(initialization; condition; increment/decrement){
+
+    code to repeat;
+    }
+
+while loop and do while -> then executes code
+
+while(boolean condition) {
+    code to repeat;
+}
+
+do while executes code -> then checks condition
+do{
+    code to repeat;
+}while(boolean condition);
