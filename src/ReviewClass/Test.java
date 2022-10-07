@@ -6,8 +6,11 @@ public class Test {
 
         String name="God";
         String gname="I love you ";
+        String iname="Love";
+        String jname="Jesus Christ";
+        String test="Test";
 
-        System.out.println(gname+name);
+        System.out.println(gname+name+" "+iname+" "+jname);
 
 
     }
