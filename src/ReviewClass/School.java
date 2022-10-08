@@ -10,7 +10,6 @@ public class School {
         Teacher t2=new Teacher("Moazzam","Sadiq");
         t2.print();
 
-
     }
 
 
