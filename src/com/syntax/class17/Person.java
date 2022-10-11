@@ -30,8 +30,10 @@ public class Person {
 
     public static void main(String[] args) {
 
-        Person person=new Person("Allan");
+        Person person=new Person("Allan","Brown","Guatemala",37,205,"Brown","Brown",5.9,'M');
         Person person2=new Person("Asma");
+
+        System.out.println(person);
 
     }
 

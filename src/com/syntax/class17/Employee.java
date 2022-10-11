@@ -2,38 +2,35 @@ package com.syntax.class17;
 
 public class Employee {
 
-    String name;
-    String department;
-    double salary;
-    String ID;
-    int age;
-    double actualSalary;
+    private String name;
+    private String department;
+    private double salary;
+    private String ID;
+    private double actualSalary;
+    private int age;
+
     static String companyName="Syntax";
 
-    void printSalary(){
-        double actualSalary=salary+20000+10000;
-        System.out.println(actualSalary);
+    protected Employee(String name, String department, double salary, int age) {
+        this.name = name;
+        this.department = department;
+        this.salary = salary;
+        this.age = age;
+
     }
+
+    void printSalary(){
+        actualSalary=salary+20000+10000;
+        System.out.println("$"+actualSalary);
+    }
+
     void calculatePrintTax(){
         double tax=actualSalary*.3;
-        System.out.println("Tax= "+tax);
+        System.out.println("$"+tax);
 
     }
 
-    public static void main(String[] args) {
-        Employee emp1=new Employee();
-
-
-
-
-    }
-
-
-
-
-
-
-    }
+}
 
 
 
