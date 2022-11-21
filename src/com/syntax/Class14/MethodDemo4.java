@@ -1,6 +1,4 @@
-package com.syntax.Class14;
-
-import jdk.internal.org.objectweb.asm.commons.Method;
+package com.syntax.class14;
 
 public class MethodDemo4 {
 

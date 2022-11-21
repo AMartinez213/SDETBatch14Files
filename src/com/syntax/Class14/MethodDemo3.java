@@ -1,11 +1,10 @@
-package com.syntax.Class14;
+package com.syntax.class14;
 
 public class MethodDemo3 {
 
     boolean isEven(int number) {
-        if (number % 2 == 0) {
-            return true;
-        } else {
+        if (number % 2 == 0) return true;
+        else {
             return false;
         }
 

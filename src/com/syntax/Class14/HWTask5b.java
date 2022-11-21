@@ -1,4 +1,4 @@
-package com.syntax.Class14;
+package com.syntax.class14;
 
 public class HWTask5b {
 

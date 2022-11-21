@@ -1,0 +1,40 @@
+HashTable:
+    HashTable is previous version of HashMap. Hashtable is thread safe. It uses synchronization to achieve thread safety
+    and because of this it is slow as compared to HashMap.
+Why we should not use Hashtable:
+    As a tester its very rare that we will be writing multithreaded code and if we dont write multithreaded code but
+    still use HashTable it will make our code slow for no benifit.
+Maps:
+    How can we iterate through a map
+
+Important concept for your coding tests:
+if else conditions
+loops
+arrays
+String class methods
+ArrayList
+Maps
+
+important concepts for verbal interviews:
+OOPS
+
+for Framework:
+1)How Classes work for example how to create a class how to declare instance variables how to use them inside a method
+2)Go through all the concepts of methods
+3)Types of variables like instances static(you will be using heavyly)
+4)Inheritance
+5)ArrayList and Maps
+
+FileHandling in Java:
+    Reading, writing, and manipulating files.
+
+Why we should learn about file handling?
+     1)We don't store sensitive data inside the code it might get exposed when we push the code to GitHub.
+     2)Hardcoding the data or creditnetials in code is very bad practice because for any reason if you have to change
+     the credentials or the data you will have to change it everywhere which will take alot of time.
+     3)When we have to perform data drive testing we use a lot of data to perform this type of testing it is not feasible
+     to put all of that data in code.
+Steps to read from any file in java:
+    1)First we need the location(path)
+    2)Use a class to navigate to that location(for example FileInputStream)
+    3)We need a class that can help us read/write data to that special type of file for example

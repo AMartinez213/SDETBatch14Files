@@ -1,0 +1,16 @@
+Java Class 09
+
+Break and Continue:
+
+Break - Break/Exist loop block
+Continue - Skips current execution/iteration
+
+Nested Loop - Loop inside another loop
+
+for(int i=1; i<4; i++){
+    for(j=0; j<=2; j++){
+    System.out.println(i+" "+j);
+    break;
+    }
+    System.out.println("Bye");
+}
