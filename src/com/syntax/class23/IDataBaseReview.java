@@ -2,10 +2,30 @@ package com.syntax.class23;
 
 public interface IDataBaseReview {
 
-    int age=10;
+    int childAge();
     void openDatabase();
     void readData();
     void writeData();
-    void closeDatabase();
 
+}
+class IBMReview implements IDataBaseReview {
+
+    @Override
+    public void openDatabase() {
+        System.out.println("Opening the IBM database");
+    }
+
+    @Override
+    public void readData() {
+        System.out.println("Reading the data from the IBM Database");
+    }
+
+    @Override
+    public void writeData() {
+        System.out.println("Writing the data to the database");
+    }
+    @Override
+    public int childAge(){
+        return 110;
+    }
 }

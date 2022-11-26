@@ -1,9 +1,5 @@
 package com.syntax.class30;
 
-import Utils.ExcelReader;
-
-import java.io.IOException;
-
 public class TypesOfExcep {
 
     public static void main(String[] args) {
@@ -25,12 +21,12 @@ public class TypesOfExcep {
 
         }
 
-        try {
+        /*try {
             System.out.println(ExcelReader.read("C:\\Users\\AMart\\IntelliJ\\Class Files\\SDETBatch14\\Data\\Test1.xlsx"));
         } catch (IOException e) {
             System.out.println("Backup Code");
         }
-        System.out.println("important line of code");
+        System.out.println("important line of code");*/
 
     }
 }
