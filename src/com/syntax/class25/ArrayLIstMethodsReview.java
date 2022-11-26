@@ -2,7 +2,7 @@ package com.syntax.class25;
 
 import java.util.ArrayList;
 
-public class ArrayListMethods {
+public class ArrayLIstMethodsReview {
     public static void main(String[] args) {
         ArrayList<String> makeUpItem=new ArrayList<>();
         makeUpItem.add("Blush");
@@ -19,12 +19,16 @@ public class ArrayListMethods {
         cosmetics.add("Lotion");
 
         ArrayList<String> beautyProducts=new ArrayList<>();
+
         beautyProducts.addAll(makeUpItem);
         beautyProducts.addAll(cosmetics);
         System.out.println(beautyProducts);
         beautyProducts.remove("Lotion");
         System.out.println(beautyProducts);
-        makeUpItem.remove("Blush");
+        beautyProducts.remove("Blush");
         System.out.println(makeUpItem);
+        System.out.println(beautyProducts.size());
+//      System.out.println(beautyProducts.sort());
     }
 }
+

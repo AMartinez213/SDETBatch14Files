@@ -11,6 +11,7 @@ Issues with Collections Framework:
     1) Collection framework does not work with primitive datatype(Solution is use wrapper classes).
 
 Note: Frequently asked in interviews!!!!!
+Note: Wrapper class uses 4x more memory than a primitive.
 
 Wrapper Classes:
     Wrapper classes are object types for all primitive types.

@@ -2,7 +2,7 @@ package com.syntax.class25;
 
 import java.util.ArrayList;
 
-public class HWReview {
+public class HWTask1 {
     public static void main(String[] args) {
 
         ArrayList<String> names = new ArrayList<>();

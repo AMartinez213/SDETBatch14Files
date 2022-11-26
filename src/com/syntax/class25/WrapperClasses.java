@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class WrapperClasses {
     public static void main(String[] args) {
-
         int num = 10;
 //      Boxing or manual conversion from primitive to wrapper type
 //      Integer wrappedNum = Integer.valueOf(num);
@@ -18,8 +17,5 @@ public class WrapperClasses {
 //      int num2=wrappedNum.intValue();
 //      Auto Un-Boxing or Automatic conversion of a wrapper type to a primitive type.
         int num2=wrappedNum;
-
-
     }
-
 }
