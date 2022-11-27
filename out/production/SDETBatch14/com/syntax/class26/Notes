@@ -43,7 +43,7 @@ ArrayList Class:
 Iterator:
     its a mechanism that allows us to iterate and delete data from any class in collections framework.
     it has hasNext() next() remove().
-why we should learn about Iterator?
+Why we should learn about Iterator?
     Because loops are not safe when we perform an operation that can change the size of a data structure.
 ArrayList Vs LinkedList
     Both of the classes implement the list interface which means both of them will have same methods.
@@ -60,4 +60,7 @@ LinkedList:
 if most of the time you use add or remove method then use linkedList.
 if most of the time you use get method use ArrayList.
 
-Sets
+**When To Use:
+    Use an ArrayList for storing and accessing data, and LinkedList to manipulate data.**
+
+Sets - Three types of Sets - HashSet/LinkedHashSet/TreeSet (Dont allow duplicates)

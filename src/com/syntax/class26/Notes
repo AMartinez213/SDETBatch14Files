@@ -63,4 +63,4 @@ if most of the time you use get method use ArrayList.
 **When To Use:
     Use an ArrayList for storing and accessing data, and LinkedList to manipulate data.**
 
-Sets
+Sets - Three types of Sets - HashSet/LinkedHashSet/TreeSet (Dont allow duplicates)
